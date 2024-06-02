@@ -13,22 +13,25 @@ def read_restaurant_data(filename):
         csv_reader = csv.reader(file)
         for row in csv_reader:
             name = row[0]
-            cuisine = row[1]
+            cuisines_string = row[1]
+            cuisines = cuisines_string.split("/")
             cost = int(row[2])
             reviews = int(row[3])
             score = float(row[4])
             lat = float(row[5])
             lon = float(row[6])
-            time = int(row[7].split('h')[0]) * 60 + int(row[7].split('h')[1].replace('m', ''))
+            time = int(row[7]) // 60
+            location_id = row[8]
             restaurants.append({
                 "name": name,
-                "cuisine": cuisine,
+                "cuisine": cuisines,
                 "cost": cost,
                 "reviews": reviews,
                 "score": score,
                 "lat": lat,
                 "lon": lon,
-                "time": time
+                "time": time,
+                "location_id": location_id
             })
     return restaurants
 # Function to calculate distance between two coordinates
@@ -137,24 +140,27 @@ def get_top_n_restaurants(restaurants, n, max_budget, max_time, current_lat, cur
 
 
 if __name__ == "__main__":
-    current_lat = float(sys.argv[1])
-    current_lon = float(sys.argv[2])
-    cuisine = sys.argv[3]
-    max_budget = int(sys.argv[4])
-    max_time = int(sys.argv[5])
-    top_n = 3
+    current_lat, current_lon = 39.888470, 32.827494  # Ankara coordinates
+    cuisine = "American"
+    max_budget = 200
+    max_time = 60  # in minutes
 
     # Read restaurant data from CSV
     restaurants = read_restaurant_data('restaurants.csv')
 
     # Filter by cuisine
-    filtered_restaurants = [r for r in restaurants if cuisine in r["cuisine"]]
+    filtered_restaurants = [r for r in restaurants if cuisine == r["cuisine"]]
 
-    # Get top N restaurants
-    top_restaurants = get_top_n_restaurants(filtered_restaurants, top_n, max_budget, max_time, current_lat, current_lon)
+    # Get top N restaurants using greedy search
+    top_restaurants_greedy = [greedy_search(cuisine, max_budget, max_time, current_lat, current_lon, restaurants)]
 
+    # Get the best restaurant using genetic algorithm
+    best_restaurant_genetic = genetic_algorithm(cuisine, max_budget, max_time, current_lat, current_lon, restaurants)
+
+    # Combine results
     results = {
-        "topRestaurants": top_restaurants
+        "topRestaurantsGreedy": top_restaurants_greedy,
+        "bestRestaurantGenetic": best_restaurant_genetic
     }
 
-    print(json.dumps(results))
+    print(json.dumps(results, indent=2))

@@ -1,98 +1,198 @@
-Restaurant87,Burger,389,423,2.4,39.546309,32.848689,1h25m
-Restaurant244,Pasta,420,239,2.3,39.998357,32.995703,2h7m
-Restaurant847,Burger,233,186,3.2,40.164686,32.742912,0h30m
-Restaurant171,Pizza,142,25,4.2,39.972274,32.558465,2h36m
-Restaurant514,French,491,229,2.8,39.841655,32.921396,1h23m
-Restaurant330,BBQ,236,98,4.5,39.881546,32.825206,1h40m
-Restaurant755,Sushi,363,405,3.0,39.669268,32.576484,2h23m
-Restaurant270,Sushi,346,136,2.9,40.015918,32.988115,1h50m
-Restaurant208,BBQ,182,438,2.1,40.068981,32.554856,1h1m
-Restaurant71,Burger,278,358,2.6,39.854007,32.587126,2h49m
-Restaurant69,Seafood,56,208,3.9,39.872728,32.792554,2h37m
-Restaurant669,Pizza,307,165,3.2,40.04083,32.674452,0h3m
-Restaurant118,Burger,312,165,2.4,40.009179,32.779119,2h24m
-Restaurant935,Burger,159,381,2.3,40.153267,32.684732,2h39m
-Restaurant28,Pasta,86,173,4.2,39.821063,32.673404,0h57m
-Restaurant826,Steak,464,299,3.5,39.94134,32.88231,0h26m
-Restaurant615,Chinese,401,240,4.7,39.69784,32.545136,2h28m
-Restaurant168,BBQ,346,478,3.5,39.665196,32.718123,0h28m
-Restaurant287,French,143,133,4.6,40.125157,32.692987,2h45m
-Restaurant531,Steak,278,269,1.2,40.038793,32.796512,0h18m
-Restaurant552,Burger,72,167,1.7,40.138674,32.62932,0h38m
-Restaurant55,Sushi,384,108,1.9,39.913597,32.605384,0h5m
-Restaurant66,Burger,367,386,2.1,40.158123,32.633819,2h47m
-Restaurant34,Italian,237,194,4.4,39.908412,32.626471,2h38m
-Restaurant145,Burger,133,394,4.7,39.925405,32.693704,3h4m
-Restaurant960,Italian,234,85,3.4,40.043275,32.598902,2h17m
-Restaurant481,BBQ,229,408,3.3,39.876856,32.901841,1h25m
-Restaurant176,French,170,345,4.3,40.110866,32.737651,0h3m
-Restaurant44,Seafood,169,141,4.5,39.947315,32.677892,2h24m
-Restaurant635,Seafood,79,282,4.7,39.842319,32.97841,1h21m
-Restaurant518,Burger,80,108,4.4,39.873304,32.757799,1h40m
-Restaurant371,French,56,236,4.8,39.928237,32.933234,1h2m
-Restaurant485,Italian,412,164,4.5,39.930097,32.835986,0h6m
-Restaurant248,Italian,470,57,4.3,40.107228,32.987056,0h35m
-Restaurant118,Mexican,115,229,4.5,40.077163,32.828194,2h32m
-Restaurant113,Sushi,165,370,4.3,39.843298,32.805017,1h3m
-Restaurant256,French,131,274,3.4,39.885869,32.777062,0h50m
-Restaurant684,Italian,216,201,2.3,40.093681,32.646221,2h28m
-Restaurant373,Pizza,155,420,4.6,39.94404,32.701097,2h5m
-Restaurant957,Pizza,432,94,2.1,39.893464,32.672136,0h37m
-Restaurant813,BBQ,205,294,4.1,39.838964,32.73387,2h55m
-Restaurant690,Chinese,280,105,4.8,40.124338,32.924031,2h13m
-Restaurant452,Italian,352,472,3.5,39.76436,32.945348,1h57m
-Restaurant924,Sushi,81,214,2.9,39.945176,32.704953,2h57m
-Restaurant526,BBQ,141,239,4.0,39.937956,32.846727,2h56m
-Restaurant799,Italian,490,67,1.3,39.853107,32.686731,1h13m
-Restaurant909,Chinese,62,405,2.6,39.897403,32.67679,1h41m
-Restaurant701,Pizza,118,377,3.5,40.066683,32.606278,2h8m
-Restaurant562,Seafood,361,20,1.5,39.801217,32.758182,1h57m
-Restaurant92,BBQ,183,362,3.8,39.79528,32.752622,2h47m
-Restaurant855,Italian,274,93,4.4,40.111087,32.564329,0h4m
-Restaurant148,French,307,369,2.3,39.74856,32.642165,2h34m
-Restaurant92,Steak,180,415,3.1,39.981569,32.580326,2h52m
-Restaurant117,Burger,202,491,3.8,40.011639,32.736148,0h17m
-Restaurant769,Steak,70,281,1.4,40.02361,32.742512,2h33m
-Restaurant291,Pasta,171,98,3.0,39.928122,32.927218,1h48m
-Restaurant805,BBQ,75,279,2.6,39.815396,32.742175,1h28m
-Restaurant255,BBQ,491,489,1.8,39.711018,32.819464,0h8m
-Restaurant734,Burger,226,31,4.5,39.794436,32.936839,0h13m
-Restaurant48,Seafood,196,379,3.0,39.745369,32.787292,2h5m
-Restaurant117,BBQ,319,207,3.8,39.728741,32.710732,0h55m
-Restaurant74,BBQ,320,465,2.1,39.933493,32.874381,2h0m
-Restaurant384,Burger,136,328,1.7,39.964542,32.665829,2h49m
-Restaurant528,Pasta,250,261,1.7,40.061678,32.897591,0h15m
-Restaurant256,Chinese,460,124,3.8,40.153422,32.59985,1h49m
-Restaurant924,Sushi,123,165,4.4,39.796582,32.80312,0h4m
-Restaurant628,Steak,276,248,4.5,39.761624,32.594968,2h6m
-Restaurant473,French,83,244,2.4,40.136431,32.719392,0h33m
-Restaurant632,BBQ,369,36,2.3,39.734648,32.893442,0h13m
-Restaurant350,French,81,335,3.8,39.752012,32.677819,0h21m
-Restaurant865,BBQ,364,114,4.0,39.754687,32.837046,2h30m
-Restaurant839,Seafood,289,155,2.0,39.835695,32.815908,0h55m
-Restaurant142,Seafood,216,244,2.2,39.763714,32.669882,2h18m
-Restaurant265,Steak,454,207,3.6,39.815843,32.594865,2h26m
-Restaurant647,Turkish,273,146,3.1,40.021832,32.996352,1h43m
-Restaurant640,BBQ,301,151,2.5,39.773112,32.91046,1h55m
-Restaurant617,Italian,157,120,4.6,40.014196,32.600528,0h12m
-Restaurant815,Seafood,233,78,1.1,39.789795,32.939243,0h16m
-Restaurant349,BBQ,128,150,4.3,39.823245,32.589451,2h30m
-Restaurant205,BBQ,264,104,2.1,39.927479,32.761845,2h33m
-Restaurant507,BBQ,209,92,1.4,39.99726,32.788905,0h3m
-Restaurant265,Sushi,176,183,2.5,40.063622,32.759201,1h55m
-Restaurant796,Sushi,422,478,2.5,39.893008,32.726544,1h54m
-Restaurant203,Turkish,70,286,4.6,40.065927,32.796143,1h40m
-Restaurant333,Burger,228,489,4.7,39.719386,32.59468,1h6m
-Restaurant614,French,455,392,4.1,40.034018,32.694763,2h45m
-Restaurant451,Burger,183,174,2.8,39.925144,32.932327,0h7m
-Restaurant224,Pasta,88,498,3.2,40.000834,32.940688,1h11m
-Restaurant349,Pizza,318,455,4.3,39.924322,32.912618,1h40m
-Restaurant119,Pizza,335,186,1.5,39.965844,32.618715,0h17m
-Restaurant759,French,306,225,3.2,40.141039,32.666015,1h48m
-Restaurant289,French,217,77,2.1,40.119453,32.993308,1h4m
-Restaurant236,Seafood,88,236,1.4,39.756347,32.655029,0h4m
-Restaurant913,Burger,431,306,1.4,39.88801,32.870527,0h29m
-Restaurant83,Pizza,288,338,3.6,39.977837,32.942639,2h33m
-Restaurant107,Italian,316,416,2.4,39.722407,32.754223,0h32m
-Restaurant706,Italian,206,315,3.6,39.792632,32.635832,1h26m
-Restaurant285,Sushi,188,184,2.8,39.936735,32.734501,0h1m
+Nukteli,Mediterranean/Turkish/Italian/Seafood/Grill/Vegetarian Friendly/Vegan Options/,250,214,5.0,39.89332,32.70149,883,15812486
+L'avare Stage & Street,Italian/Bar/European/Vegetarian Friendly/Vegan Options/Gluten Free Options/,283,395,4.5,39.894676,32.85823,667,12452902
+Pizzeria Alla Torre,Pizza/Vegetarian Friendly/Vegan Options/,326,74,5.0,39.886223,32.855885,569,23905193
+Trilye Restaurant,Seafood/Vegetarian Friendly/,460,1174,4.5,39.894047,32.872025,719,788195
+Pizza Il Forno,Pizza/Vegetarian Friendly/Vegan Options/Halal/,200,448,4.0,39.876465,32.860516,846,4167475
+Kebap 49,Middle Eastern/Halal/,244,947,4.0,39.907364,32.86009,563,1077362
+Louise Brasserie & Lounge,Bar/European/Healthy/Gastropub/Vegetarian Friendly/Vegan Options/Halal/Gluten Free Options/,346,196,4.5,39.89738,32.87176,718,9466866
+Lucera Restaurant,Mediterranean/Turkish/,212,42,5.0,39.774696,32.803776,1075,24179929
+Duveroglu,Turkish/Healthy/Halal/,236,1101,4.0,39.92257,32.84298,364,803080
+Meyhane Asina,Mediterranean/Turkish/Vegetarian Friendly/Vegan Options/,216,187,4.5,39.892883,32.850693,666,7997277
+Timboo Cafe Kentpark,Cafe/Vegetarian Friendly/Vegan Options/Halal/,255,637,4.0,39.909424,32.775978,554,2685544
+No4 Restaurant Bar Lounge,Bar/European/International/Vegetarian Friendly/Vegan Options/,325,232,4.5,39.914505,32.806965,503,4007917
+Gunaydin Kebap Restaurant,Steakhouse/Barbecue/Turkish/Halal/,430,527,4.0,39.89781,32.86696,644,1778629
+Masabasi Kebapcisi,Barbecue/Turkish/Halal/,228,599,4.0,39.910522,32.820274,185,3470003
+Mersinli Cigerci Apo,Turkish/Halal/,203,470,4.0,39.909664,32.8182,236,8533512
+Sur Balik Cankaya,Healthy/Mediterranean/Turkish/Vegetarian Friendly/,364,94,4.5,39.89275,32.871563,670,6672527
+Fige Restaurant Bar,Turkish/Vegetarian Friendly/Vegan Options/Halal/Gluten Free Options/,383,292,4.0,39.88536,32.857147,630,806432
+Pecenek Doner,Turkish/Halal/,226,305,4.0,39.949688,32.84468,737,4856174
+libertea coffee&food,Fast Food/European/Turkish/,244,27,5.0,39.94433,32.82618,629,25406628
+Bayram Usta Yaprak Kebap,Barbecue/Turkish/Halal/,258,182,4.5,39.866463,32.85999,924,10138557
+Afitap Meyhane,Seafood/Mediterranean/Turkish/Vegetarian Friendly/Vegan Options/Halal/Gluten Free Options/,232,198,4.0,39.907307,32.859116,520,12972925
+Tavaci Recep Usta,Turkish/Halal/,356,857,4.0,39.884705,32.84593,784,3405010
+Kitir,Street Food/Halal/,286,239,4.0,39.90267,32.86017,599,2670586
+Kumsal Lokantasi,American/Vegetarian Friendly/Halal/,200,163,4.5,39.89568,32.868977,620,2670562
+Bayram Usta Yaprak Kebap,Turkish/,257,88,4.5,39.898327,32.811607,562,12403925
+Cafe des Cafes,Cafe/European/Fusion/Vegetarian Friendly/Vegan Options/Halal/Gluten Free Options/,282,285,4.0,39.90656,32.86116,523,786552
+Yelken Balik,Seafood/Mediterranean/Vegetarian Friendly/Halal/Gluten Free Options/,339,199,4.5,39.897636,32.86932,694,5233196
+Bolu Akin Lokantasi,Turkish/Halal/,267,113,4.5,39.946926,32.76431,756,2681661
+Meshur Ozcelik Aspava,Turkish/Halal/,244,224,4.0,39.90659,32.866657,686,2673415
+NRY Restaurant,Pizza/Chinese/Street Food/Dining bars/Beer restaurants/Vegetarian Friendly/Vegan Options/,104,69,4.5,39.882656,32.85647,649,7344504
+The Gang Bbq,American/German/Barbecue/,282,38,5.0,39.895077,32.856224,629,19142128
+Urumci Uygur Restaurant,Asian/Turkish/Vegetarian Friendly/Halal/,290,66,4.5,39.925697,32.864693,703,10062024
+Meymenet Meyhane,Turkish/,109,96,4.5,39.892822,32.851032,662,16673758
+Kebapci Emin Usta,Turkish/Barbecue/Halal/,281,106,4.5,39.936867,32.863888,810,3537873
+Uludag KebapcIsI,Turkish/Halal/,215,308,4.0,39.934647,32.85736,581,816110
+Kirit Cafe,Cafe/International/Turkish/Halal/Vegetarian Friendly/Vegan Options/,221,124,4.5,39.937096,32.863792,819,2685605
+Camgoz Balikcisi,Seafood/Mediterranean/Turkish/Halal/,401,164,4.0,39.893375,32.86876,578,8154496
+Quick China,Chinese/Japanese/Sushi/Asian/Vegetarian Friendly/Vegan Options/Halal/,355,164,4.0,39.871464,32.682003,1085,3343884
+Cigerci Aydin,Turkish/Barbecue/Middle Eastern/Halal/,279,104,4.0,39.93236,32.84264,454,2391954
+Muslum Kebap,Steakhouse/Barbecue/Turkish/Diner/Halal/,246,233,4.0,39.90435,32.809856,398,8393128
+Cukuraga Sofrasi,Steakhouse/Turkish/Halal/,299,296,4.0,39.916607,32.818985,117,3458935
+La Gioia,European/Vegetarian Friendly/Vegan Options/Gluten Free Options/,236,210,4.0,39.900593,32.862362,695,6982141
+Adana Sofrasi,Barbecue/Turkish/Middle Eastern/Halal/,299,186,4.0,39.875893,32.86196,809,3330349
+Nefise'nin Yeri Cerkes Manti Evi,Turkish/Vegetarian Friendly/,292,47,4.5,39.93639,32.865,797,11547001
+Deli Yengec,Seafood/Mediterranean/Turkish/Halal/,430,130,4.0,40.05365,32.845657,1877,787159
+Masabasi Kebapcisi,Turkish/Halal/,244,100,4.0,39.907215,32.859764,475,13133036
+Aruni Restoran & Bar,Bar/International/Turkish/Diner/Wine Bar/,459,34,5.0,39.899864,32.86414,641,11728962
+Sekiz Et BalIk Meze,,100,40,5.0,39.822456,32.710484,1297,21284251
+Tarihi Mutfak LokantasI,Steakhouse/Barbecue/Turkish/Middle Eastern/Halal/,219,65,4.5,39.918774,32.859585,641,810887
+JW Steakhouse Ankara,Steakhouse/Gluten Free Options/,411,117,4.5,39.90937,32.80589,246,2320514
+Pikolet Piknik,Turkish/Halal/,238,117,4.0,39.924053,32.84229,305,2672275
+Yelken Balik Evi,Seafood/Mediterranean/Turkish/Vegetarian Friendly/Halal/,346,85,4.5,39.88387,32.85447,640,2670752
+Goksu Restaurant,Turkish/Bar/Seafood/Vegetarian Friendly/Vegan Options/Halal/,403,150,4.0,39.90469,32.867832,644,3200581
+Alacamli Pide,Turkish/Halal/,279,82,4.5,39.892857,32.701588,891,8556315
+Cennetkusu Kebap,Turkish/Halal/,109,132,4.0,39.879986,32.687706,1132,8541819
+Konakbay Ciborek ve Manti,,247,42,4.5,39.90575,32.821434,321,10296656
+Chinabloom Ankara,Chinese/,422,60,4.5,39.89506,32.704174,776,15574829
+Etmanyak Burger&Sosis,Street Food/American/Fast Food/,214,89,4.0,39.89666,32.85611,585,16697192
+Manti Klasik,Turkish/,207,25,5.0,39.89514,32.8761,822,16434067
+Cankaya Lokantasi,Turkish/Halal/,288,61,4.5,39.90461,32.85007,504,2678894
+Naya Restaurant & Lounge,Italian/French/Japanese/Turkish/,459,26,4.5,39.886566,32.855457,575,25053814
+Basil,Mediterranean/Healthy/,255,18,5.0,39.896755,32.868816,636,24126236
+Kebapci Canbolat,,119,32,4.5,39.9636,32.870457,895,11550302
+Ege Restaurant,Seafood/Mediterranean/Turkish/,244,73,4.0,39.907658,32.861656,505,782137
+Cigerci Bahattin,Turkish/Barbecue/Halal/,202,186,4.0,39.91769,32.81708,296,9740221
+Knafe Restaurant,,207,69,4.5,39.869083,32.68546,1097,10070116
+Pizza Silla,Italian/Pizza/Fast Food/Vegetarian Friendly/,214,36,4.5,39.989983,32.688374,1372,12351469
+Gunaydin Kasap Steak House,Steakhouse/Barbecue/Turkish/Halal/,341,184,4.0,39.898224,32.86531,629,3477524
+Yayla Karadeniz,Turkish/Vegetarian Friendly/Halal/,245,82,4.5,40.17961,33.020245,2536,8846971
+Chef Bro's,Seafood/Mediterranean/Turkish/,442,49,4.0,39.89782,32.86449,666,23611577
+Amelie's Garden Succulent & Coffee,Cafe/,226,64,4.5,39.90027,32.85756,450,12972401
+Marti Restaurant,Turkish/,248,32,4.5,39.920494,32.857937,644,9729701
+Luigi’s,Italian/European/Mediterranean/Vegetarian Friendly/,450,126,4.0,39.885967,32.856255,550,15711776
+Rumeli Iskembe Salonu,Turkish/Soups/Halal/,210,128,4.0,39.90658,32.859997,493,2679271
+Nusr-et Steakhouse Ankara,Halal/,477,463,3.5,39.899376,32.864883,733,3870098
+Badem Restaurant,Turkish/,298,13,5.0,39.90879,32.85285,439,17609939
+zigana pide,Turkish/Halal/,272,247,4.0,39.94639,32.76361,822,5892127
+Balikcikoy Fahri,Seafood/Mediterranean/Turkish/Vegan Options/Halal/,368,161,4.0,39.87385,32.68419,1040,2677024
+Yildiz Aspava,Turkish/Halal/,210,79,4.0,39.906605,32.866726,686,2678817
+Marlinda Lokanta & Cafe,Turkish/Bar/Mediterranean/Pub/Middle Eastern/Indigenous/Vegetarian Friendly/Vegan Options/,225,106,4.0,39.90867,32.776443,561,10497842
+Ustunel Kofte,Turkish/Halal/,291,115,4.0,39.94784,32.85137,715,4893782
+Patile Cafe,Mediterranean/Turkish/Cafe/Vegetarian Friendly/,289,94,4.0,39.87567,32.875145,907,948170
+Hatun Pastanesi,,206,25,5.0,39.90273,32.867313,737,6977340
+Ege BalIk tepe prime,Seafood/,290,54,4.5,39.908802,32.755062,713,8143918
+Double Zero Pizzeria,Pizza/Vegetarian Friendly/Vegan Options/,204,92,4.0,39.891876,32.874073,678,10376367
+Duveroglu Kebab & Baklava Hall,Turkish/Halal/,261,108,4.0,39.922447,32.8429,344,3350291
+Duveroglu Bilkent,Turkish/Steakhouse/,297,88,4.0,39.885353,32.763214,627,12927393
+Kalbur Balik,Seafood/Mediterranean/Turkish/Halal/,218,164,4.0,39.848957,32.822018,749,3331053
+baklavaci hacibaba,Turkish/Halal/,234,230,4.0,39.89236,32.812683,427,3336680
+The Cork Gastropub,Bar/Pub/Vegetarian Friendly/Vegan Options/,277,53,4.5,39.888596,32.8502,736,11668050
+Burgerdinho,American/,265,25,4.5,39.89982,32.85939,465,17206177
+Muslum Kebap,,289,36,4.5,39.8924,32.70239,802,13966277
+Unique Burgers,American/,239,67,4.0,39.93114,32.826538,417,15595136
+Cafemiz,Cafe/European/Turkish/International/Vegetarian Friendly/Vegan Options/Halal/,204,213,4.0,39.897923,32.865707,636,945156
+Can Balik,Seafood/,83,70,4.0,39.92193,32.85472,563,3451052
+N.E.T. Piknik,Turkish/,269,69,4.0,39.922485,32.85599,678,2678347
+Kinacizade Konagi,Turkish/Halal/Vegetarian Friendly/Vegan Options/,249,68,4.0,39.93878,32.8647,924,2685607
+Hayrag'nin yeri,Turkish/,229,66,4.0,39.92362,32.856148,597,3476047
+Hatay Sofrasi Hattena,Turkish/Vegetarian Friendly/Halal/,276,120,4.0,39.906002,32.821346,315,6762365
+Taka,Seafood/Turkish/,207,86,4.0,39.913532,32.80387,394,11706813
+BIGBANG BURGER,Fast Food/Diner/,269,81,4.0,39.907726,32.859657,460,7890936
+Dafne Restaurant,Turkish/Halal/,251,125,4.0,39.893665,32.851383,649,802937
+Meshur Cengiz Yildirim Aspava,Turkish/,455,46,4.0,39.934128,32.837223,393,10796433
+Besiktas Donercisi,,200,45,4.5,39.94073,32.857426,852,3445176
+Kesman Ciger,Turkish/Halal/,260,134,4.0,39.911926,32.821068,154,2678136
+The Bigos - Bahcelievler,Bar/Pub/International/,226,129,4.0,39.924557,32.824917,248,3576296
+Cigerim Ahmet Usta,Turkish/,206,43,4.5,39.920048,32.858578,619,11657936
+Sipse Manti Evi,Turkish/Caucasian/,115,50,4.5,39.86464,32.65269,1106,13821729
+Ayintap Inci Restaurant,Steakhouse/,290,54,4.0,39.89311,32.87625,809,10588184
+Bolu Akin Lokantasi,Turkish/,273,56,4.5,39.94694,32.764442,753,7790095
+Muslum Kebap,Turkish/,358,88,4.0,39.904346,32.810165,395,12833698
+Cakraz Balik Keyfi,Seafood/,257,42,4.5,39.90558,32.81669,336,3450982
+Avsaroglu Pide ve Kebap Salonu,,264,36,4.5,39.88254,32.88309,1002,2684361
+Develi,Turkish/Halal/,404,131,4.0,39.89805,32.868515,651,10815672
+Mezzaluna Bilkent,Italian/Pizza/International/Mediterranean/European/Vegetarian Friendly/Vegan Options/,299,97,4.0,39.8836,32.7554,703,6438463
+Amarillo Restaurant & Bar,Bar/Pub/American/Barbecue/South American/Central American/,205,35,4.5,39.892952,32.869595,618,2670708
+Borges Cafe,Fast Food/,248,30,4.5,39.937153,32.864166,834,12279048
+Kahveci Hacibaba,Fast Food/,241,34,4.5,39.933685,32.839584,488,14095364
+Cicek Lokantasi,Turkish/Vegetarian Friendly/Halal/,217,116,4.0,39.90974,32.79848,552,3453090
+VIP (Venice Italian Pizza),Italian/,98,23,4.5,40.01512,32.53775,1912,12638392
+Yildiz Aspava,Turkish/,237,41,4.5,39.9183,32.817165,200,3448312
+Villa Restaurant,,439,63,4.0,39.90337,32.863537,694,8521495
+Guangzhou Wuyang,Chinese/Asian/Vegetarian Friendly/Vegan Options/,278,98,4.0,39.90641,32.859886,497,2684434
+Cici Piknik,Turkish/,293,82,4.0,39.91974,32.851116,408,8600559
+Hamlakit Restaurant,,285,79,4.0,39.788555,32.8053,1144,10343512
+Barba Piru,Wine Bar/,159,10,5.0,39.926636,32.867496,782,25084467
+Salas Meyhane,,212,54,4.0,39.911217,32.857918,535,12035406
+Cezzar Steakhouse,Steakhouse/,288,140,3.5,39.863018,32.854176,877,13153204
+Rumeli,Turkish/,344,64,4.0,39.921745,32.8572,678,6939329
+Quick China Cayyolu,Chinese/,213,62,4.0,39.871487,32.679764,1131,2568708
+Devrez Durum Evi,Turkish/Middle Eastern/Soups/Halal/,282,77,4.0,39.90507,32.868095,691,2678784
+Beykoz Iskembe & Paca,Turkish/,255,94,4.0,39.884865,32.853413,621,3350442
+Big Chefs,European/International/Vegetarian Friendly/Vegan Options/,210,124,4.0,39.89766,32.86365,684,3339672
+Masabasi Kebapcisi,Barbecue/Turkish/,260,32,4.0,40.04998,32.83962,1844,15835329
+Duveroglu,Turkish/Halal/,210,193,3.5,39.891445,32.70197,811,4728797
+Ekrem Usta,Middle Eastern/,225,82,4.0,39.895786,32.679703,891,12946651
+Kofteci Yusuf,Asian/Turkish/Diner/Steakhouse/,244,96,4.0,39.962025,32.769306,912,11435980
+Kajun Bring More,Turkish/,87,49,4.5,39.916733,32.85803,635,15088347
+Selami Usta,Turkish/,225,53,4.5,39.868183,32.85678,1003,7907499
+Germec pilic,Turkish/,257,77,4.0,39.928204,32.84366,497,803355
+Kunefeci Muallim,,246,59,4.0,39.906887,32.82095,287,9716533
+Zozo,Turkish/,291,35,4.5,39.868725,32.857933,969,5606405
+hacI baba,Turkish/Middle Eastern/Halal/,210,75,4.0,39.92647,32.85468,444,866370
+Cahit Usta,Turkish/,182,30,4.5,39.90373,32.81674,289,6419977
+NazIm usta HacIbayram donercisi,,266,69,4.0,39.943054,32.85729,831,8846955
+Ulucay Tantuni,Turkish/,197,24,4.5,39.931847,32.717644,947,19505775
+Kozbiber Ocakbasi,Barbecue/,432,23,4.5,39.91416,32.807976,515,15748006
+Orka Balik Restaurant,,270,16,5.0,39.896942,32.8675,638,12318332
+Antakya 326 Doner,Turkish/,205,17,4.5,39.90938,32.86323,589,14918213
+That's Burger,,295,31,4.5,39.94271,32.814674,695,8524679
+Etna Pizzeria,Pizza/,264,17,4.5,39.89475,32.816864,370,13955282
+Grano Coffee & Sandwiches,Turkish/,219,29,4.5,39.91748,32.81676,290,7390221
+Hamlakit Restaurant,,214,35,4.5,39.76214,32.73004,1322,10409265
+Meshur Tavaci Recep Usta,Turkish/,279,29,4.5,39.95156,32.91604,1007,2675007
+Uludag Kebapcisi,Turkish/,241,13,5.0,39.89411,32.86688,563,17343509
+Zaytung Zone,Italian/Mexican/American/Turkish/,233,54,4.0,39.91869,32.855907,725,8686392
+HMBRGR Gordion AVM,Fast Food/,223,59,4.0,39.889263,32.690434,930,8529082
+Dayi'nin Yeri,Steakhouse/Turkish/Halal/,275,199,3.5,39.892277,32.82549,529,3461188
+Aylak Madam,Turkish/,218,57,4.0,39.91373,32.85576,516,815011
+Loophole Booze Bite & Fun,Pizza/International/Grill/Pub/Gastropub/,215,41,4.0,39.931118,32.829952,303,11801903
+Tarabya BalIkcIsI,Seafood/,232,12,5.0,39.897755,32.866863,650,19424900
+Feslegenli Meyhane,Turkish/,281,37,4.5,39.8724,32.860474,891,11961769
+Sehir Kebapcisi,Turkish/,399,58,4.0,39.908474,32.744267,709,12124230
+Simsek Aspava - Sezenler,Turkish/Halal/,104,83,4.0,39.92536,32.85206,423,8138544
+UrfalI Haci Mehmet,Turkish/,281,58,4.0,39.94091,32.8554,753,3350923
+Dost Meclisi Aramizda,Turkish/,100,13,5.0,39.867138,32.857292,919,20307726
+52 Ciger,Turkish/Steakhouse/,237,54,4.0,39.919495,32.816463,236,2670707
+And Cafe,Cafe/European/Turkish/,219,61,4.0,39.93905,32.864445,944,2670750
+Ozler Doner,Turkish/,246,58,4.0,39.909763,32.75536,638,3584311
+Ozge Piknik,Fast Food/,276,32,4.0,39.922512,32.850628,502,2672799
+Besi Balik Pisirme,Seafood/,94,37,4.0,39.92195,32.85545,660,9608475
+Volkan Piknik,Fast Food/,223,39,4.5,39.922703,32.85092,514,2256512
+Doney Usta,Middle Eastern/,412,15,4.5,39.902065,32.8186,380,10509001
+KaburgacI Hakan Usta,Turkish/,118,19,4.0,39.926636,32.867496,782,23928007
+Quick China Gaziosmanpasa,Chinese/Japanese/Sushi/Asian/Vegetarian Friendly/,227,184,4.0,39.89593,32.878002,762,806175
+Federal Coffee Company,,216,47,4.0,39.914124,32.808308,482,10522767
+Bizim Kofteci Pide Salonu,Turkish/,280,25,4.5,39.94782,32.59652,1737,2672454
+Kebap 44,Turkish/,297,48,4.0,39.90781,32.85461,500,3373851
+Konyali Kebap,,263,39,4.0,39.955524,32.907665,976,2679263
+Verde BalIk Restoran,Mediterranean/Seafood/,266,9,5.0,39.907707,32.75975,617,24032645
+Esposito's,Pizza/Vegetarian Friendly/,250,37,4.0,39.87056,32.68081,1132,7318783
+Antakiya Kunefe,,442,12,5.0,39.98456,32.85467,991,17380352
+Buta Baku Restaurant,Turkish/Azerbaijani/,259,27,4.5,39.957413,32.739895,1072,15843197
+Sargus Seafood & More,Seafood/Belgian/European/,233,17,4.5,39.8944,32.868988,603,23839462
+Republique Gastro Pub,Mexican/Fast Food/Mediterranean/Turkish/Pub/Gastropub/,200,9,5.0,39.905792,32.860355,516,23775918
+Meysef,Seafood/Mediterranean/,271,8,5.0,39.90885,32.858917,417,23568200
+Gramofon Cafe,Cafe/Turkish/,98,62,4.0,39.93641,32.863907,779,3494426
+NYPD Pizza,Pizza/,252,27,4.0,39.921627,32.84406,361,2684428
+Coffee Craft Town,Cafe/,207,46,4.0,39.895836,32.70505,804,12124111
+Waffle Corner,,157,25,4.5,39.89664,32.86479,650,2681483
+Hayyami,Wine Bar/,212,57,4.0,39.906967,32.86006,483,2676916
+Cafe Del Mundo,Bar/Cafe/Pub/Vegetarian Friendly/,228,68,4.0,39.903996,32.86225,663,6367277
+Bonapple,American/Cafe/European/Turkish/Healthy/,288,32,4.5,39.90997,32.8587,469,13337054
+Suha's Restaurant,Turkish/,257,40,4.0,39.91321,32.859596,571,2681662
+Kafes Firin Sogutozu,Cafe/Vegetarian Friendly/Halal/,276,170,3.5,39.909252,32.790054,447,4141923
+Koroglu Iskembecisi ve Restaurant,Turkish/,285,64,4.0,39.903168,32.81026,399,2677302
+Mutlu Kebap,,117,25,4.5,39.91244,32.85533,475,2673388
+Meshur Kofteci Sahin-Mustafa (Sahin usta),Turkish/,264,30,4.0,39.948242,32.85288,764,7986119

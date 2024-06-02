@@ -18,6 +18,8 @@ def get_list(offset):
         "offset": offset
     })
 
+    print(response)
+
     if response.status_code != 200:
         return None
     
@@ -29,8 +31,9 @@ def get_list(offset):
 
         name = restaurant["name"]
         cousine = ""
-        for c in restaurant["cuisine"]:
-            cousine += c["name"] + "/"
+        for cuisine in restaurant["cuisine"]:
+            cousine += cuisine + "/"
+        cousine = cousine[:-1]
         cost = int(find_cost(restaurant["price_level"])*random.uniform(0.8, 1.2)*100)
         if "num_reviews" not in restaurant:
             restaurant["num_reviews"] = "0"
