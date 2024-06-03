@@ -1,10 +1,12 @@
 import csv
+import json
+import os
 
-## get cuisines from restaurants.csv
-## and unique cuisines
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_file_path = os.path.join(script_dir, 'restaurants.csv')
 
 cuisines = []
-with open("restaurants.csv", mode='r') as file:
+with open(csv_file_path, mode='r') as file:
     csv_reader = csv.reader(file)
     for row in csv_reader:
         cuisines_string = row[1][:-1]
@@ -13,4 +15,4 @@ with open("restaurants.csv", mode='r') as file:
 unique_cuisines = set(cuisines)
 unique_cuisines.remove("")
 
-print(unique_cuisines)
+print(json.dumps(list(unique_cuisines)))
