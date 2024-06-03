@@ -27,10 +27,10 @@ def get_list(offset):
             continue
 
         name = restaurant["name"]
-        cousine = ""
+        cuisines = ""
         for cuisine in restaurant["cuisine"]:
-            cousine += cuisine + "/"
-        cousine = cousine[:-1]
+            cuisines += cuisine["name"] + "/"
+        cuisines = cuisines[:-1]
         cost = int(find_cost(restaurant["price_level"])*random.uniform(0.8, 1.2)*100)
         if "num_reviews" not in restaurant:
             restaurant["num_reviews"] = "0"
@@ -40,12 +40,15 @@ def get_list(offset):
         lon = restaurant["longitude"]
         location_id = restaurant["location_id"]
 
+        """
         gmaps = googlemaps.Client(key=c.MAPS_API_TOKEN)
         origins = ("39.9180091","32.8232624")
         destinations = (lat, lon)
         time = gmaps.distance_matrix(origins, destinations)["rows"][0]["elements"][0]["duration"]["value"]
+        """
+        time = random.randint(200, 1500)
 
-        data.append([name, cousine, cost, reviews, score, lat, lon, time, location_id])
+        data.append([name, cuisines, cost, reviews, score, lat, lon, time, location_id])
 
     with open(c.CSV_NAME, 'a', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
@@ -65,12 +68,14 @@ def find_cost(price_level):
         level = 4
     elif price_level == "$$$$$":
         level = 5
-    else:
+    elif "-" in price_level:
         interval = price_level.split("-")
         level = (find_cost(interval[0]) + find_cost(interval[1])) / 2
+    else:
+        level = 5
     
     return level
 
 if __name__ == "__main__":
-    for i in range (0, 200, 20):
+    for i in range (0, 5000, 20):
         get_list(i)
