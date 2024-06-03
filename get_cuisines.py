@@ -1,9 +1,10 @@
 import csv
 import json
 import os
+import constants as c
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-csv_file_path = os.path.join(script_dir, 'restaurants.csv')
+csv_file_path = os.path.join(script_dir, c.CSV_NAME)
 
 cuisines = []
 with open(csv_file_path, mode='r') as file:

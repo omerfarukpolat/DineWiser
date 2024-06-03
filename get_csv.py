@@ -3,22 +3,16 @@ import requests
 import csv
 import random
 import googlemaps
+import constants as c
 
 
 def get_list(offset):
-    url = "https://worldwide-restaurants.p.rapidapi.com/search"
-    response = requests.post(url=url, headers={
-        "x-rapidapi-host":"worldwide-restaurants.p.rapidapi.com",
-        "x-rapidapi-key":"<RAPID_API_KEY>",
-        "Content-Type":"application/json"
-    }, json={
-        "language": "en_EN",
-        "location_id": "298656", ## Ankara
-        "currency": "TRY",
+    response = requests.post(url=c.RAPID_API_SEARCH_URL, headers=c.RAPID_API_HEADERS, json={
+        "language": c.EN,
+        "location_id": c.ANKARA_LOCATION_ID,
+        "currency": c.TRY,
         "offset": offset
     })
-
-    print(response)
 
     if response.status_code != 200:
         return None
@@ -26,7 +20,10 @@ def get_list(offset):
     data = []
     response_data = response.json()["results"]["data"]
     for restaurant in response_data:
-        if "name" not in restaurant or "cuisine" not in restaurant or "price_level" not in restaurant or "rating" not in restaurant or "latitude" not in restaurant or "longitude" not in restaurant or "location_id" not in restaurant:
+        if "name" not in restaurant or "cuisine" not in restaurant or \
+            "price_level" not in restaurant or "rating" not in restaurant or \
+                "latitude" not in restaurant or "longitude" not in restaurant or \
+                    "location_id" not in restaurant:
             continue
 
         name = restaurant["name"]
@@ -43,14 +40,14 @@ def get_list(offset):
         lon = restaurant["longitude"]
         location_id = restaurant["location_id"]
 
-        gmaps = googlemaps.Client(key="<MAPS_API_KEY>")
-        origins = (lat, lon)
-        destinations = ("39.9180091","32.8232624")
+        gmaps = googlemaps.Client(key=c.MAPS_API_TOKEN)
+        origins = ("39.9180091","32.8232624")
+        destinations = (lat, lon)
         time = gmaps.distance_matrix(origins, destinations)["rows"][0]["elements"][0]["duration"]["value"]
 
         data.append([name, cousine, cost, reviews, score, lat, lon, time, location_id])
 
-    with open('test.csv', 'a', encoding='UTF8', newline='') as f:
+    with open(c.CSV_NAME, 'a', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
