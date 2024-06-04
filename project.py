@@ -9,9 +9,10 @@ import requests
 import constants as c
 
 def read_restaurant_data(filename):
-    filepath = os.path.join(os.path.dirname(__file__), filename)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file_path = os.path.join(script_dir, c.CSV_NAME)
     restaurants = []
-    with open(filepath, mode='r') as file:
+    with open(csv_file_path, mode='r') as file:
         csv_reader = csv.reader(file)
         for row in csv_reader:
             name = row[0]
@@ -24,6 +25,7 @@ def read_restaurant_data(filename):
             lon = float(row[6])
             time = int(row[7]) // 60
             location_id = row[8]
+
             restaurants.append({
                 "name": name,
                 "cuisine": cuisines,
@@ -35,6 +37,7 @@ def read_restaurant_data(filename):
                 "time": time,
                 "location_id": location_id
             })
+
     return restaurants
 
 # Function to calculate distance between two coordinates
@@ -45,6 +48,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
     a = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
     distance = R * c
+
     return distance
 
 # Function to calculate total score for a restaurant based on user preferences
@@ -54,6 +58,7 @@ def calculate_score(restaurant, max_budget, max_time, current_lat, current_lon):
     distance = calculate_distance(current_lat, current_lon, restaurant["lat"], restaurant["lon"])
     distance_score = max(0, (40 - distance) / 40)
     reviews_score = min(1, restaurant["reviews"] / 5)  # Normalized reviews score
+
     return cost_score + time_score + distance_score + restaurant["score"] + reviews_score
 
 # Greedy search to find the best initial restaurant
@@ -66,6 +71,7 @@ def greedy_search(cuisine, max_budget, max_time, current_lat, current_lon, resta
             if score > best_score:
                 best_score = score
                 best_restaurant = restaurant
+
     return best_restaurant
 
 # Genetic algorithm to optimize meal selection
@@ -132,6 +138,7 @@ def genetic_algorithm(cuisine, max_budget, max_time, current_lat, current_lon, r
 
     # Select the best solution from the original filtered restaurants
     best_solution = max(filtered_restaurants, key=lambda restaurant: calculate_score(restaurant, max_budget, max_time, current_lat, current_lon))
+   
     return best_solution
 
 def get_top_n_restaurants(restaurants, n, max_budget, max_time, current_lat, current_lon):
@@ -140,6 +147,7 @@ def get_top_n_restaurants(restaurants, n, max_budget, max_time, current_lat, cur
         for restaurant in restaurants
     ]
     sorted_restaurants = sorted(scored_restaurants, key=lambda x: x[1], reverse=True)
+    
     return [restaurant for restaurant, score in sorted_restaurants[:n]]
 
 def get_restaurant_detail(location_id):
@@ -217,6 +225,7 @@ if __name__ == "__main__":
             cuisine.append({"key": c, "name": c})
         temp["cuisine"] = cuisine
         best_restaurant_genetic = temp
+
     results = {
         "bestRestaurantGreedy": best_restaurant_greedy,
         "bestRestaurantGenetic": best_restaurant_genetic

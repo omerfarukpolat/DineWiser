@@ -1,6 +1,7 @@
 import googlemaps.distance_matrix
 import requests
 import csv
+import os
 import random
 import googlemaps
 import constants as c
@@ -13,7 +14,6 @@ def get_list(offset):
         "currency": c.TRY,
         "offset": offset
     })
-
     if response.status_code != 200:
         return None
     
@@ -39,18 +39,13 @@ def get_list(offset):
         lat = restaurant["latitude"]
         lon = restaurant["longitude"]
         location_id = restaurant["location_id"]
-
-        """
-        gmaps = googlemaps.Client(key=c.MAPS_API_TOKEN)
-        origins = ("39.9180091","32.8232624")
-        destinations = (lat, lon)
-        time = gmaps.distance_matrix(origins, destinations)["rows"][0]["elements"][0]["duration"]["value"]
-        """
         time = random.randint(200, 1500)
 
         data.append([name, cuisines, cost, reviews, score, lat, lon, time, location_id])
 
-    with open(c.CSV_NAME, 'a', encoding='utf-8', newline='') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file_path = os.path.join(script_dir, c.CSV_NAME)
+    with open(csv_file_path, 'a', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
