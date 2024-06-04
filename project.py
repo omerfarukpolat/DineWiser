@@ -7,10 +7,11 @@ import json
 import sys
 import requests
 import constants as c
+import update_csv as u
 
 def read_restaurant_data(filename):
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    csv_file_path = os.path.join(script_dir, c.CSV_NAME)
+    csv_file_path = os.path.join(script_dir, filename)
     restaurants = []
     with open(csv_file_path, mode='r') as file:
         csv_reader = csv.reader(file)
@@ -156,7 +157,6 @@ def get_restaurant_detail(location_id):
         "location_id": location_id,
         "currency": c.TRY
     })
-
     if response.status_code != 200:
         return None
 
@@ -169,8 +169,10 @@ if __name__ == "__main__":
     max_budget = int(sys.argv[4])
     max_time = int(sys.argv[5])
 
+    new_csv_name = u.update_csv(current_lat, current_lon)
+
     # Read restaurant data from CSV
-    restaurants = read_restaurant_data(c.CSV_NAME)
+    restaurants = read_restaurant_data(new_csv_name)
 
     # Filter by cuisine
     filtered_restaurants = [r for r in restaurants if cuisine in r["cuisine"]]
